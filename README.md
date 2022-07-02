@@ -15,7 +15,7 @@
 ### 用法一：写死公钥
 1. fork仓库,修改key_custom.sh内公钥（line：49 引号内修改）
 2. 终端内执行
-#### bash <(curl -fsSL https://raw.fastgit.org/你的github ID/key_custom/main/key_custom.sh) -c
+#### bash <(curl -fsSL https://raw.fastgit.org/你的github名/key_custom/main/key_custom.sh) -c
 - tips：https://raw.fastgit.org/你的github ID/key_custom/main/key_custom.sh 太长，可使用短链接缩短 ，如小马短链接
 ### 用法二：按原作者用法 增加 -s 即可
 #### bash <(curl -fsSL https://sourl.cn/GGw9rg) -og 你的github名 -s
