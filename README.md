@@ -11,9 +11,9 @@ Costume settings:
 - ClientAliveInterval=60  
 - ClientAliveCountMax=720
      
-### 便于个人使用，可直接写死pub key，line：49 引号修改即可
+### 便于个人使用，可直接写死pub key，line：49 引号内修改即可
 set_pub_key(){
     PUB_KEY="这里填公钥，不用主机名"
-
-### 一键操作
-bash <(curl -fsSL git.io/key.sh) -c
+    
+### 使用说明 编辑中
+bash <(curl -fsSL https://raw.fastgit.org/moli765/key_custom/main/key_custom.sh) -c
