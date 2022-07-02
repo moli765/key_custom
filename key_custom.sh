@@ -5,6 +5,8 @@
 # Version: 2.7
 # Author: P3TERX
 # Blog: https://p3terx.com
+# 
+# modify by moli765
 #=============================================================
 
 VERSION=2.7
