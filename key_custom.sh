@@ -50,7 +50,7 @@ fi
 set_pub_key(){
     PUB_KEY="ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBADSdaT+Mrh0+hLc8YaNTaoZ5fclYfZqrWg3kZ+XEgIrzQ1ux06zxlyCByI0ZZ8jUK+yXtaoCwJp58EwIp6vBxe0OwH/Jyd7wZT8dHscQClTpLtQ9H5gWU2jXM/1UrQ/q/2re4vh+L9WhY80M+AoEuw0Qfx4qWOD2/yVupfIoTYSG6O5Cg=="
     #手动设置公钥,改成自己的
-
+}
 #apt install curl -y
 ##要用到 curl 以防万一装一下
 
