@@ -252,7 +252,7 @@ while getopts "og:u:f:p:d:c" OPT; do
         #允许root登录,默认no
         GSSAPIAuthentication=no
         #设置no可加速SSH登录，部分系统默认为no
-        custome_set
+        #custome_set
         #此处自定义修改参数
         ;;
     ?)
