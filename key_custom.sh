@@ -243,10 +243,10 @@ while getopts "og:u:f:p:d:c" OPT; do
         #使用手动设置的公钥并强制覆盖
         disable_password
         #关闭密码登录
-        ClientAliveInterval=60
-        ClientAliveCountMax=720
+        #ClientAliveInterval=60
+        #ClientAliveCountMax=720
         #连接保活，60s一次，可保持连接12h
-        MaxAuthTries=3
+        #MaxAuthTries=3
         #最大尝试次数为3,默认20
         PermitRootLogin=yes
         #允许root登录,默认no
